@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kevin Bayter">
+    <meta name="description" content="Calculadora de intereses, calcular intereses online">
+    <title>Calculadora de intereses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <div class="container">
+    <h2>Calculadora de intereses</h2>
+    <div>
+        <label>Monto (sin puntos):</label>
+        <input type="number" id="principal" placeholder="Ej. 1000000">
+        <span class="error" id="principal-error"></span>
+    </div>
+    <div>
+        <label>Número de cuotas:</label>
+        <input type="number" id="cuotas">
+        <span class="error" id="cuotas-error"></span>
+    </div>
+    <div>
+        <label>Tasa de interés:</label>
+        <input type="number" step="0.01" id="tasaInteres" placeholder="Ej. 2.35">
+        <span class="error" id="tasaInteres-error"></span>
+    </div>
+    <div>
+        <label>¿Interes mensual o anual?</label>
+        <select id="tipoInteres">
+            <option value="mensual">Mensual</option>
+            <option value="anual">Anual</option>
+        </select>
+    </div>
+    <button onclick="calcularCuotas()">Calcular</button>
+    <div id="resultado"></div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
