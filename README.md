@@ -11,7 +11,7 @@ Este proyecto permite calcular las cuotas mensuales con interés para un présta
 
 ## Prueba online
 
-[Calculadora de Cuotas con Interés](https://calculadora-cuotas-con-interes.herokuapp.com/)
+[Calculadora de Cuotas con Interés online](https://calcular-intereses.netlify.app/)
 
 ## Uso
 
@@ -31,6 +31,6 @@ Este proyecto permite calcular las cuotas mensuales con interés para un présta
 
 Las contribuciones son bienvenidas. Por favor, abre un Issue primero para discutir lo que te gustaría cambiar.
 
-## AUthor
+## Author
 
 [Kevin Bayter](https://www.bayter-x.com/)
